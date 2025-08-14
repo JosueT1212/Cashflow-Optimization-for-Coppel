@@ -1,7 +1,7 @@
 # Cashflow-Optimization-for-Coppel
 
 ```markdown
-# 💸 Coppel Liquidity Optimization Hub
+# Coppel Liquidity Optimization Hub
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![PuLP](https://img.shields.io/badge/Optimization-PuLP-success)](https://coin-or.github.io/pulp/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project implements a **Mixed-Integer Linear Programming (MILP)** model to optimize cash redistribution across **21 Coppel branches** in Guadalajara. It uses real sales, deposits, and geographic data to minimize:
 
@@ -32,7 +32,7 @@ The model is built in Python using **PuLP**, and it is executed daily. It includ
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -57,7 +57,7 @@ pip install pulp pandas numpy
 
 ---
 
-## 🚀 Running the Model
+##  Running the Model
 
 ```bash
 python model.py
@@ -82,7 +82,7 @@ The model will solve one instance per day (7 in total) and display:
 
 ---
 
-## 📈 Sensitivity Analysis
+##  Sensitivity Analysis
 
 - +10% logistics cost → +8% total cost
 - -50% vehicle capacity → +12% more trips
@@ -90,7 +90,7 @@ The model will solve one instance per day (7 in total) and display:
 
 ---
 
-## 🔍 Model Summary
+##  Model Summary
 
 ### Variables
 
